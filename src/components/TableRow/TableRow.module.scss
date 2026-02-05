@@ -1,0 +1,18 @@
+@for $i from 0 through 10 {
+  .idContent-#{$i} {
+    padding-left: #{$i * 24}px;
+  }
+
+  .nameContent-#{$i} {
+    padding-left: #{($i * 24) + 24}px;
+  }
+}
+
+
+tr[data-level="1"] td {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+tr[data-level="2"] td {
+  background-color: rgba(255, 255, 255, 0.01);
+}

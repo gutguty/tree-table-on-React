@@ -1,0 +1,17 @@
+@use '@/styles/mixins' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  @include fluid-text(18, 14);
+  color: var(--c-white);
+  background-color: var(--bc);
+  display: flex;
+  flex-direction: column;
+}
